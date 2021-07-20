@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background: #272727;
+  color: #e1efee;
+  font-family: 'Chakra Petch', sans-serif;
+  overflow-x: auto;
+}
+
+.test {
+  outline: 2px solid red;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+}
+
+.person{
+  position: absolute;
+  height: 100%;
+  right: 0;
+  /* z-index:1; */
+}
+
+.Navigation{
+  right:-262px;
+}
